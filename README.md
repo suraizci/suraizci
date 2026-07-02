@@ -1,16 +1,24 @@
-## Hi there 👋
+# Şura
 
-<!--
-**suraizci/suraizci** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Computer engineering student · iOS & game dev · exploring AI/CV
 
-Here are some ideas to get you started:
+## Currently
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Systems fundamentals: CSAPP labs, OSTEP, xv6
+- Atil Samancioglu for AI/CV
+
+## Tech
+
+C · Java · Python · Swift  
+SwiftUI · Godot
+
+## Contact
+
+- izcisura01@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/şuraizci)
+
+---
+
+## TR
+
+Bilgisayar mühendisliği öğrencisiyim. Şu an sistem programlama temellerine (CSAPP, OSTEP) ve AI/CV alanına çalışıyorum. iOS ve oyun geliştirmeyi hobi olarak sürdürüyorum.

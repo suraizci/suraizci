@@ -1,0 +1,104 @@
+<svg viewBox="0 0 880 220" width="880" height="220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="şura izci — compe student, ios and game dev, exploring ai/cv">
+  <style>
+    :root {
+      --ink: #141414;
+      --muted: #8a8a8a;
+      --hair: #d9d9d9;
+      --mark: #bdbdbd;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #ededed;
+        --muted: #8f8f8f;
+        --hair: #3a3a3a;
+        --mark: #4a4a4a;
+      }
+    }
+
+    .name {
+      font-family: -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+      font-size: 52px;
+      font-weight: 300;
+      letter-spacing: -0.5px;
+      fill: var(--ink);
+    }
+    .name tspan {
+      opacity: 0;
+      animation: type 0.01s steps(1, end) forwards;
+    }
+    .name tspan:nth-child(1) { animation-delay: 0.30s; }
+    .name tspan:nth-child(2) { animation-delay: 0.42s; }
+    .name tspan:nth-child(3) { animation-delay: 0.54s; }
+    .name tspan:nth-child(4) { animation-delay: 0.66s; }
+    .name tspan:nth-child(5) { animation-delay: 0.82s; }
+    .name tspan:nth-child(6) { animation-delay: 0.94s; }
+    .name tspan:nth-child(7) { animation-delay: 1.06s; }
+    .name tspan:nth-child(8) { animation-delay: 1.18s; }
+
+    .mono {
+      font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+      letter-spacing: 0.4px;
+    }
+    .path-label {
+      font-size: 12px;
+      fill: var(--muted);
+      opacity: 0;
+      animation: fade 0.5s ease-out 0.1s forwards;
+    }
+    .bio {
+      font-size: 13px;
+      fill: var(--muted);
+      opacity: 0;
+      animation: fade 0.7s ease-out 1.6s forwards;
+    }
+    .cursor {
+      fill: var(--ink);
+      animation: blink 1.1s steps(2, start) infinite;
+    }
+
+    .rule {
+      stroke: var(--hair);
+      stroke-width: 1;
+      stroke-dasharray: 356;
+      stroke-dashoffset: 356;
+      animation: draw 0.8s cubic-bezier(0.6, 0, 0.2, 1) 1.3s forwards;
+    }
+    .mark {
+      stroke: var(--mark);
+      stroke-width: 1;
+      opacity: 0;
+      animation: fade 0.6s ease-out 0.2s forwards;
+    }
+
+    @keyframes type  { to { opacity: 1; } }
+    @keyframes fade  { to { opacity: 1; } }
+    @keyframes draw  { to { stroke-dashoffset: 0; } }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .name tspan, .path-label, .bio, .mark { animation: none; opacity: 1; }
+      .rule { animation: none; stroke-dashoffset: 0; }
+      .cursor { animation: none; }
+    }
+  </style>
+
+  <!-- köşe işaretleri -->
+  <g class="mark">
+    <path d="M 24 18 v 12 M 18 24 h 12" fill="none"/>
+    <path d="M 856 18 v 12 M 850 24 h 12" fill="none"/>
+    <path d="M 24 190 v 12 M 18 196 h 12" fill="none"/>
+    <path d="M 856 190 v 12 M 850 196 h 12" fill="none"/>
+  </g>
+
+  <!-- üst etiket -->
+  <text class="mono path-label" x="64" y="52">~/suraizci</text>
+
+  <!-- isim, harf harf -->
+  <text class="name" x="62" y="118" xml:space="preserve"><tspan>ş</tspan><tspan>u</tspan><tspan>r</tspan><tspan>a</tspan><tspan> i</tspan><tspan>z</tspan><tspan>c</tspan><tspan>i</tspan></text>
+
+  <!-- hairline -->
+  <line class="rule" x1="64" y1="140" x2="420" y2="140"/>
+
+  <!-- bio + imleç -->
+  <text class="mono bio" x="64" y="172">compe student · ios &amp; game dev · exploring ai/cv<tspan class="cursor"> _</tspan></text>
+</svg>

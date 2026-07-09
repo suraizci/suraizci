@@ -1,3 +1,4 @@
+<img src="banner.svg" width="100%" alt="şura izci" />
 # Şura
 
 Computer engineering student · iOS & game dev · exploring AI/CV
